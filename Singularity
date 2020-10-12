@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: alpine:latest
+From: ubuntu:latest
 
 %labels
     MAINTAINER Jennifer Chang
