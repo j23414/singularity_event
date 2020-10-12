@@ -1,4 +1,4 @@
-Bootstrap: library
+Bootstrap: docker
 From: alpine:latest
 
 %labels
@@ -10,5 +10,3 @@ From: alpine:latest
 
 %post
   apt-get -y update
-
-
